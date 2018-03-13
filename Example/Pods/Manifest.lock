@@ -1,0 +1,16 @@
+PODS:
+  - ATSignature (0.1.0)
+
+DEPENDENCIES:
+  - ATSignature (from `../`)
+
+EXTERNAL SOURCES:
+  ATSignature:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ATSignature: fed6f2b8f0bb831652b9fdb413c5abb635fe5c03
+
+PODFILE CHECKSUM: 2ba2a8542496d5fc04477e04c0acbb2baac72fce
+
+COCOAPODS: 1.2.1
