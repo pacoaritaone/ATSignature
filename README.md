@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ATSignature.svg?style=flat)](http://cocoapods.org/pods/ATSignature)
 [![Platform](https://img.shields.io/cocoapods/p/ATSignature.svg?style=flat)](http://cocoapods.org/pods/ATSignature)
 
+## Screenshots
+![ATSignature:Swift](https://github.com/pacoaritaone/ATSignature/blob/master/Screenshots/screenshot1.png)
+![ATSignature:Swift](https://github.com/pacoaritaone/ATSignature/blob/master/Screenshots/screenshot2.png)
+
 ## Summary
 
 It is one of the most simple customized signature view with basic controls
@@ -15,7 +19,7 @@ The controls include Button Actions, Button color, Button title. It has total fo
 
 ## Example
 
-```
+```swift
 import ATSignature
 
 class ViewController: UIViewController, ATSignatureDelegate {
@@ -58,7 +62,7 @@ class ViewController: UIViewController, ATSignatureDelegate {
 ## Requirements
 
 Delegate
-```
+```swift
 @objc public protocol ATSignatureDelegate {
     @objc optional func atSignatureCancel(_: ATSignatureViewController)
     @objc optional func atSignatureNotSigned(_: ATSignatureViewController)
